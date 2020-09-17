@@ -17,7 +17,6 @@
         android:hint="@string/edit_message"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
-        android:text="@string/edit_message"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintHorizontal_bias="0.5"
