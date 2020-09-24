@@ -45,4 +45,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void Tracker(View view) {
+        Intent intent = new Intent(MainActivity.this, TrackerActivity.class);
+        startActivity(intent);
+    }
 }
