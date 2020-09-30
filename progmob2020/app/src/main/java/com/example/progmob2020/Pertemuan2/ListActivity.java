@@ -1,4 +1,4 @@
-package com.example.progmob2020.pertemuan2;
+package com.example.progmob2020.Pertemuan2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
