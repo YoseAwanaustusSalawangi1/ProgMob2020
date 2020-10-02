@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.progmob2020.Pertemuan2.CardViewActivity;
 import com.example.progmob2020.Pertemuan2.ListActivity;
 import com.example.progmob2020.Pertemuan2.RecyclerActivity;
 
@@ -72,7 +73,8 @@ public class MainActivity extends AppCompatActivity {
         btnCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(MainActivity.this, CardViewActivity.class);
+                startActivity(intent);
             }
         });
     }

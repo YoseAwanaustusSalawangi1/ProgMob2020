@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Pertemuan2.RecyclerActivity">
+    tools:context=".Pertemuan2.CardViewActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvLatihan"
-        android:layout_width="333dp"
-        android:layout_height="726dp"
+        android:id="@+id/rvCardView"
+        android:layout_width="334dp"
+        android:layout_height="703dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"

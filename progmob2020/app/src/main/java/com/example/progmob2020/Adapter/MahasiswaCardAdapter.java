@@ -16,11 +16,11 @@ import com.example.progmob2020.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MahasiswaRecyclerAdapter extends RecyclerView.Adapter<MahasiswaRecyclerAdapter.ViewHolder> {
+public class MahasiswaCardAdapter extends RecyclerView.Adapter<MahasiswaCardAdapter.ViewHolder> {
     private Context context;
     private List<Mahasiswa> mahasiswaList;
 
-    public MahasiswaRecyclerAdapter(Context context) {
+    public MahasiswaCardAdapter(Context context) {
         this.context = context;
         mahasiswaList = new ArrayList<>();
     }
