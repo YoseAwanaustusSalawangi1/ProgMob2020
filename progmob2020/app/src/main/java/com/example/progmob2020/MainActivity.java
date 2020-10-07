@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.example.progmob2020.Pertemuan2.CardViewActivity;
 import com.example.progmob2020.Pertemuan2.ListActivity;
 import com.example.progmob2020.Pertemuan2.RecyclerActivity;
+import com.example.progmob2020.pertemuan4.DebuggingActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
         Button btnList = (Button)findViewById(R.id.buttonListActivity);
         Button btnRecycler = (Button)findViewById(R.id.buttonRecyclerView);
         Button btnCard = (Button)findViewById(R.id.buttonCardView);
+
+        //pertemuan4
+        Button btnTemu = (Button)findViewById(R.id.buttonTemu);
 
         //Action
         txtView.setText(R.string.text_hello_world);
@@ -74,6 +78,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, CardViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnTemu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, DebuggingActivity.class);
                 startActivity(intent);
             }
         });
