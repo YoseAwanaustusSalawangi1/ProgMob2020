@@ -34,33 +34,31 @@ public class HapusMhsActivity extends AppCompatActivity {
         btnDel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    pd.setTitle("Mohon Menunggu");
-                    pd.show();
+                pd.setTitle("Mohon Menunggu");
+                pd.show();
 
-                    GetDataService service = RetrofitClientInstance.getRetrofitInstance().create(GetDataService.class);
-                    Call<DefaultResult> call = service.delete_mhs(
-                            edNim.getText().toString(),
-                            "72180217"
+                GetDataService service = RetrofitClientInstance.getRetrofitInstance().create(GetDataService.class);
+                Call<DefaultResult> call = service.delete_mhs(
+                        edNim.getText().toString(),
+                        "72180217"
                     );
 
-                    call.enqueue(new Callback<DefaultResult>() {
-                        @Override
-                        public void onResponse(Call<DefaultResult> call, Response<DefaultResult> response) {
-                            pd.dismiss();
-                            Toast.makeText(HapusMhsActivity.this, "Data Berhasil Dihapus", Toast.LENGTH_LONG).show();
-                            Intent intent = new Intent(HapusMhsActivity.this, MahasiswaGetAllActivity.class);
-                            startActivity(intent);
-                        }
+                call.enqueue(new Callback<DefaultResult>() {
+                    @Override
+                    public void onResponse(Call<DefaultResult> call, Response<DefaultResult> response) {
+                        pd.dismiss();
+                        Toast.makeText(HapusMhsActivity.this, "Data Berhasil Dihapus", Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(HapusMhsActivity.this, MahasiswaGetAllActivity.class);
+                        startActivity(intent);
+                    }
 
-                        @Override
-                        public void onFailure(Call<DefaultResult> call, Throwable t) {
-                            pd.dismiss();
-                            Toast.makeText(HapusMhsActivity.this, "Data Gagal Dihapus", Toast.LENGTH_LONG).show();
-                        }
-                    });
+                    @Override
+                    public void onFailure(Call<DefaultResult> call, Throwable t) {
+                        pd.dismiss();
+                        Toast.makeText(HapusMhsActivity.this, "Data Gagal Dihapus", Toast.LENGTH_LONG).show();
+                    }
+                });
             }
         });
-
-
     }
 }
