@@ -4,28 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Crud.HapusMhsActivity">
+    tools:context=".MatkulCrud.MainMatkulActivity">
 
-    <EditText
-        android:id="@+id/editTextHapusMhs"
+    <Button
+        android:id="@+id/buttonLihatMatkul"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/hapusMhs"
-        android:inputType="textPersonName"
+        android:layout_marginTop="268dp"
+        android:text="LIHAT MATAKULUIAH"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonHapus"
+        android:id="@+id/buttonTambahMatkul"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hapus"
+        android:text="TAMBAH MATAKULIAH"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLihatMatkul" />
+
+    <Button
+        android:id="@+id/buttonHapusMatkul"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="hapus matakuliah"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextHapusMhs"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonTambahMatkul"
+        app:layout_constraintVertical_bias="0.002" />
 </androidx.constraintlayout.widget.ConstraintLayout>

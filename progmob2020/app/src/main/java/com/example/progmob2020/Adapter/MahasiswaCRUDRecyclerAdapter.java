@@ -11,7 +11,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.progmob2020.Crud.MahasiswaUpdateActivity;
-import com.example.progmob2020.Crud.MainMhsActivity;
 import com.example.progmob2020.Model.Mahasiswa;
 import com.example.progmob2020.R;
 

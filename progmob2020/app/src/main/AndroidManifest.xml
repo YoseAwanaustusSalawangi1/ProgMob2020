@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.progmob2020">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,19 +13,70 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Crud.MahasiswaAddActivity"></activity>
-        <activity android:name=".Crud.HapusMhsActivity" />
-        <activity android:name=".Crud.MahasiswaUpdateActivity" />
-        <activity android:name=".Crud.MahasiswaGetAllActivity" />
+        <activity android:name=".Pertemuan6.PrefActivity">
+
+        </activity>
         <activity
-            android:name=".Crud.MainMhsActivity"
-            android:label="CRUD Mahasiswa">
+            android:name=".Pertemuan6.MainMenuActivity"
+            android:label="Sistem Informasi Akademik">
+        </activity>
+        <activity
+            android:name=".MatkulCrud.HapusMatkulActivity"
+            android:label="Hapus Data Matakuliah">
+        </activity>
+        <activity
+            android:name=".MatkulCrud.MatkulUpdateActivity"
+            android:label="Update Data Dosen" />
+        <activity
+            android:name=".MatkulCrud.MatkulAddActivity"
+            android:label="Tambah Data Dosen" />
+        <activity
+            android:name=".MatkulCrud.MatkulGetAllActivity"
+            android:label="Daftar Data Matakuliah" />
+        <activity
+            android:name=".MatkulCrud.MainMatkulActivity"
+            android:label="Data Matakuliah">
+        </activity>
+        <activity
+            android:name=".DosenCrud.HapusDsnActivity"
+            android:label="Hapus Data Dosen" />
+        <activity
+            android:name=".DosenCrud.DosenUpdateActivity"
+            android:label="Update Data Dosen" />
+        <activity
+            android:name=".DosenCrud.DosenAddActivity"
+            android:label="Tambah Data Dosen" />
+        <activity
+            android:name=".DosenCrud.DosenGetAllActivity"
+            android:label="Daftar Data Dosen" />
+        <activity
+            android:name=".DosenCrud.MainDsnActivity"
+            android:label="Data Dosen">
+        </activity>
+        <activity android:name=".Pertemuan6.LoginActivity">
+        </activity>
+        <activity android:name=".Pertemuan6.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Crud.MahasiswaAddActivity"
+            android:label="Tambah Data Mahasiswa" />
+        <activity
+            android:name=".Crud.HapusMhsActivity"
+            android:label="Hapus Data Mahasiswa" />
+        <activity
+            android:name=".Crud.MahasiswaUpdateActivity"
+            android:label="Update Data Mahasiswa" />
+        <activity
+            android:name=".Crud.MahasiswaGetAllActivity"
+            android:label="Daftar Data Dosen" />
+        <activity
+            android:name=".Crud.MainMhsActivity"
+            android:label="Data Mahasiswa" />
         <activity android:name=".Pertemuan2.CardViewActivity" />
         <activity android:name=".Pertemuan2.RecyclerActivity" />
         <activity android:name=".Pertemuan2.ListActivity" />

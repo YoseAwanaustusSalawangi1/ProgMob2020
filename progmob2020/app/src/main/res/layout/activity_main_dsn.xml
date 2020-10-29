@@ -4,50 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Crud.MainMhsActivity">
+    tools:context=".DosenCrud.MainDsnActivity">
 
     <Button
-        android:id="@+id/buttonAddMhs"
+        android:id="@+id/buttonLihatDsn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Tambah Mahasiswa"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonGetMhs" />
-
-    <Button
-        android:id="@+id/buttonGetMhs"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="296dp"
-        android:text="Lihat Mahasiswa"
+        android:layout_marginTop="280dp"
+        android:text="Lihat Dosen "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonUpdateMhs"
+        android:id="@+id/buttonAddDsn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="UBAH MAHASISWA"
+        android:text="Tambah Dosen "
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:visibility="gone"
-        app:layout_constraintTop_toBottomOf="@+id/buttonAddMhs" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonLihatDsn" />
 
     <Button
-        android:id="@+id/buttonDeleteMhs"
+        android:id="@+id/buttonHapusDsn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="96dp"
-        android:text="HAPUS MAHASISWA"
+        android:text="Hapus Dosen "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonUpdateMhs"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUpdateDsn"
         app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonUpdateDsn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="UPDATE DOSEN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddDsn" />
 </androidx.constraintlayout.widget.ConstraintLayout>

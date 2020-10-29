@@ -62,7 +62,7 @@ public class MahasiswaCardAdapter extends RecyclerView.Adapter<MahasiswaCardAdap
             super(itemView);
             tvNama = itemView.findViewById(R.id.tvNama);
             tvNim = itemView.findViewById(R.id.tvNim);
-            tvNoTelp = itemView.findViewById(R.id.tvNoTelp);
+            //tvNoTelp = itemView.findViewById(R.id.tvNoTelp);
         }
     }
 }

@@ -4,28 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Crud.HapusMhsActivity">
+    tools:context=".MatkulCrud.HapusMatkulActivity">
 
     <EditText
-        android:id="@+id/editTextHapusMhs"
+        android:id="@+id/editTextHapusMatkul"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/hapusMhs"
+        android:hint="@string/hapus_kode"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonHapus"
+        android:id="@+id/buttonHapusMatkul"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hapus"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="HAPUS"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextHapusMhs"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextHapusMatkul" />
 </androidx.constraintlayout.widget.ConstraintLayout>
