@@ -10,12 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.progmob2020.Crud.HapusMhsActivity;
-import com.example.progmob2020.Crud.MahasiswaGetAllActivity;
-import com.example.progmob2020.MatkulCrud.MatkulGetAllActivity;
 import com.example.progmob2020.Model.DefaultResult;
-import com.example.progmob2020.Model.Dosen;
-import com.example.progmob2020.Model.Matkul;
 import com.example.progmob2020.Network.GetDataService;
 import com.example.progmob2020.Network.RetrofitClientInstance;
 import com.example.progmob2020.R;

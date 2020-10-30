@@ -1,4 +1,4 @@
-package com.example.progmob2020.Crud;
+package com.example.progmob2020.MahasiswaCrud;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,8 +9,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 
-import com.example.progmob2020.DosenCrud.DosenUpdateActivity;
-import com.example.progmob2020.DosenCrud.MainDsnActivity;
 import com.example.progmob2020.Pertemuan6.MainMenuActivity;
 import com.example.progmob2020.R;
 

@@ -1,4 +1,4 @@
-package com.example.progmob2020.Crud;
+package com.example.progmob2020.MahasiswaCrud;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;

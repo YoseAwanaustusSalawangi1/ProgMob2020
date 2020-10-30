@@ -1,15 +1,10 @@
 package com.example.progmob2020.Pertemuan6;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
-import android.widget.Toast;
 
-import com.example.progmob2020.Crud.MainMhsActivity;
 import com.example.progmob2020.R;
 
 public class SplashActivity extends Activity {

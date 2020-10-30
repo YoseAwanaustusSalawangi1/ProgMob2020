@@ -1,6 +1,5 @@
 package com.example.progmob2020.Pertemuan6;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
@@ -15,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
-import com.example.progmob2020.Crud.MainMhsActivity;
+import com.example.progmob2020.MahasiswaCrud.MainMhsActivity;
 import com.example.progmob2020.DosenCrud.MainDsnActivity;
 import com.example.progmob2020.MatkulCrud.MainMatkulActivity;
 import com.example.progmob2020.Model.User;

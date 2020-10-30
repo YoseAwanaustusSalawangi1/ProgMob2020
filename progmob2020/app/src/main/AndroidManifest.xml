@@ -8,9 +8,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/lol"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/lol"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Pertemuan6.PrefActivity">
@@ -63,19 +63,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Crud.MahasiswaAddActivity"
+            android:name=".MahasiswaCrud.MahasiswaAddActivity"
             android:label="Tambah Data Mahasiswa" />
         <activity
-            android:name=".Crud.HapusMhsActivity"
+            android:name=".MahasiswaCrud.HapusMhsActivity"
             android:label="Hapus Data Mahasiswa" />
         <activity
-            android:name=".Crud.MahasiswaUpdateActivity"
+            android:name=".MahasiswaCrud.MahasiswaUpdateActivity"
             android:label="Update Data Mahasiswa" />
         <activity
-            android:name=".Crud.MahasiswaGetAllActivity"
+            android:name=".MahasiswaCrud.MahasiswaGetAllActivity"
             android:label="Daftar Data Dosen" />
         <activity
-            android:name=".Crud.MainMhsActivity"
+            android:name=".MahasiswaCrud.MainMhsActivity"
             android:label="Data Mahasiswa" />
         <activity android:name=".Pertemuan2.CardViewActivity" />
         <activity android:name=".Pertemuan2.RecyclerActivity" />
